@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Student</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form method="post" id="addStudent" action="javascript:void(0)">
+	<fieldset>
+		<legend><h1>Add Student:</h1></legend>
+		<label for="studentName">Student Name:</label>
+		<br>
+		<input type="text" placeholder="Enter Student's Name" id="studentName" name="name" class="inputField">
+		<br><br>
+		<label for="rollNumber">Roll Number:</label>
+		<br>
+		<input type="text" placeholder="Enter Roll Number" id="rollNumber" name="roll" class="inputField">
+		<br><br>
+		<label for="email">Email Address:</label>
+		<br>
+		<input type="email" placeholder="abc@xyz.com" id="email" name="email" class="inputField">
+		<br><br>
+		<label for="dropdown">Course:</label>
+		<br>
+		<select id="dropdown">
+		</select>
+		<br><br>
+		<input type="submit" value="Save!">
+	</fieldset>
+</form>
+<table id="studentsList">
+<thead>
+	<tr>
+	<th colspan="4" id="headingTable">Students Information</th>
+	</tr>
+	<tr>
+		<th id="name">Name</th>
+		<th id="roll">Roll Number</th>
+		<th id="mail">Email</th>
+		<th id="course">Course</th>
+	</tr>
+	</thead>
+	<tbody id="tbody">
+	</tbody>
+</table>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+.mobiles{
+	height: 600px;
+	width: 400px;
+}
+#iphone{
+	margin-right: 50px;
+}
+#galaxy{
+	margin-left: 50px;
+}
+#center{
+	margin-left: 22%;
+}
+.border{
+	height: 300px;
+	width: 275px;
+	border: 2px blue solid;
+}
+.mobiles{
+	height: 500px;
+	width: 375px;
+	border: 2px blue solid;
+}
+fieldset{
+	width: 20%;
+}
+table{
+	width: 50%;
+	margin-top: 20px;
+}
+#headingTable{
+	padding: 10px;
+	font-weight: bolder;
+}
+td, th{
+	border: 1px black solid;
+}
+#name{
+	width: 10%;
+}
+#roll {
+	width: 5%;
+}
+#mail{
+	width: 15%;
+}
+#course{
+	width: 10%
+}
